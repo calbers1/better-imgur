@@ -1,3 +1,10 @@
+import { Login } from "./Login";
+
 export const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return (
+    <div>
+      <Login />
+      LandingPage
+    </div>
+  );
 };
